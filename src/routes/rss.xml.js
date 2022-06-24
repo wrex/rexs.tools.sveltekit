@@ -1,6 +1,6 @@
-const siteURL = 'https://your-domain.tld';
-const siteTitle = 'Your site title here';
-const siteDescription = 'Your site description here';
+const siteURL = 'https://rexs.tools';
+const siteTitle = "Rex's Tools";
+const siteDescription = 'Idle thoughts on tool-making and tool-usage';
 
 export const get = async () => {
 	const posts = await Promise.all(
